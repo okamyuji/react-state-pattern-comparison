@@ -1,0 +1,65 @@
+:root {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app h1 {
+  color: #2d8a4e;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.state-view {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.status {
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #cc3333;
+}
+
+.meta {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.actions {
+  margin-top: 0.5rem;
+}
+
+.debug {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #f0f7f0;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #eee;
+}

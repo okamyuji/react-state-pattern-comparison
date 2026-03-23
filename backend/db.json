@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "田中太郎",
+      "email": "tanaka@example.com",
+      "department": "Engineering"
+    },
+    {
+      "id": "2",
+      "name": "佐藤花子",
+      "email": "sato@example.com",
+      "department": "Design"
+    },
+    {
+      "id": "3",
+      "name": "鈴木一郎",
+      "email": "suzuki@example.com",
+      "department": "Marketing"
+    },
+    {
+      "id": "4",
+      "name": "高橋美咲",
+      "email": "takahashi@example.com",
+      "department": "Engineering"
+    },
+    {
+      "id": "5",
+      "name": "伊藤健太",
+      "email": "ito@example.com",
+      "department": "Sales"
+    }
+  ]
+}
