@@ -32,7 +32,6 @@ describe("transition", () => {
     expect(result.status).toBe("error");
     if (result.status === "error") {
       expect(result.error).toBe(error);
-      expect(result.retryCount).toBe(0);
     }
   });
 
@@ -40,7 +39,6 @@ describe("transition", () => {
     const state: AsyncState = {
       status: "error",
       error: new Error("fail"),
-      retryCount: 0,
     };
     const result = transition(state, { type: "RETRY" });
     expect(result.status).toBe("loading");
@@ -110,7 +108,6 @@ describe("getAvailableEvents", () => {
     const state: AsyncState = {
       status: "error",
       error: new Error("x"),
-      retryCount: 0,
     };
     expect(getAvailableEvents(state)).toEqual(["RETRY"]);
   });

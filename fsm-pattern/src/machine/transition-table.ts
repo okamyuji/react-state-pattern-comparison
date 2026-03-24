@@ -27,7 +27,6 @@ export const transitionTable: TransitionTable = {
     REJECT: (_state, event) => ({
       status: "error",
       error: event.error,
-      retryCount: 0,
     }),
   },
   success: {

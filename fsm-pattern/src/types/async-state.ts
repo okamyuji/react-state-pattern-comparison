@@ -7,7 +7,6 @@ export type SuccessState = { status: "success"; data: User[]; fetchedAt: Date };
 export type ErrorState = {
   status: "error";
   error: Error;
-  retryCount: number;
 };
 
 export type AsyncState = IdleState | LoadingState | SuccessState | ErrorState;

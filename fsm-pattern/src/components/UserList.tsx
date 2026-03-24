@@ -26,12 +26,7 @@ export function UserList() {
           </>
         );
       case "error":
-        return (
-          <>
-            <p className="error">Error: {state.error.message}</p>
-            <p className="meta">Retry count: {state.retryCount}</p>
-          </>
-        );
+        return <p className="error">Error: {state.error.message}</p>;
     }
   };
 
