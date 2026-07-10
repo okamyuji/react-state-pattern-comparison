@@ -15,7 +15,7 @@
   "dependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.1.0",
-    "json-server": "^0.17.4",
+    "json-server": "^1.0.0-beta.15",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.57.1",
