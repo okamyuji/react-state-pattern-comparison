@@ -6,6 +6,8 @@ on:
 
 jobs:
   backend:
+    permissions:
+      contents: read
     uses: okamyuji/reusable-workflows/.github/workflows/node-ci.yml@v1
     with:
       node-version: "24"
@@ -13,6 +15,8 @@ jobs:
       typecheck-command: "run build"
 
   flag-pattern:
+    permissions:
+      contents: read
     uses: okamyuji/reusable-workflows/.github/workflows/node-ci.yml@v1
     with:
       node-version: "24"
@@ -20,6 +24,8 @@ jobs:
       typecheck-command: "run build"
 
   fsm-pattern:
+    permissions:
+      contents: read
     uses: okamyuji/reusable-workflows/.github/workflows/node-ci.yml@v1
     with:
       node-version: "24"
