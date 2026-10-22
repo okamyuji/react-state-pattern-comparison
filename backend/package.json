@@ -20,7 +20,7 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.57.1",
     "vite": "^8.3.5",
-    "vitest": "^5.0.0"
+    "vitest": "^5.0.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
