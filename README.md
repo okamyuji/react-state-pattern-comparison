@@ -46,7 +46,7 @@ cd backend && pnpm start
 cd flag-pattern && pnpm run dev
 
 # ターミナル3: Goodパターン（port 5174）
-cd fsm-pattern && pnpm run dev -- --port 5174
+cd fsm-pattern && pnpm run dev --port 5174
 ```
 
 ## 検証コマンド
