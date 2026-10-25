@@ -29,9 +29,9 @@ react-state-pattern-comparison/
 
 ```bash
 # 各ディレクトリで依存をインストール
-cd backend && npm install && cd ..
-cd flag-pattern && npm install && cd ..
-cd fsm-pattern && npm install && cd ..
+cd backend && pnpm install --frozen-lockfile && cd ..
+cd flag-pattern && pnpm install --frozen-lockfile && cd ..
+cd fsm-pattern && pnpm install --frozen-lockfile && cd ..
 ```
 
 ## 起動方法
@@ -40,13 +40,13 @@ cd fsm-pattern && npm install && cd ..
 
 ```bash
 # ターミナル1: バックエンドAPI（port 3001）
-cd backend && npm start
+cd backend && pnpm start
 
 # ターミナル2: Badパターン（port 5173）
-cd flag-pattern && npm run dev
+cd flag-pattern && pnpm run dev
 
 # ターミナル3: Goodパターン（port 5174）
-cd fsm-pattern && npm run dev -- --port 5174
+cd fsm-pattern && pnpm run dev --port 5174
 ```
 
 ## 検証コマンド
@@ -54,10 +54,10 @@ cd fsm-pattern && npm run dev -- --port 5174
 各ディレクトリで以下がすべてPassします。
 
 ```bash
-npm run format:check   # Prettier
-npm run lint           # ESLint
-npm run test           # Vitest
-npm run build          # TypeScript + Vite build
+pnpm run format:check # Prettier
+pnpm run lint # ESLint
+pnpm run test # Vitest
+pnpm run build # TypeScript + Vite build
 ```
 
 ## パターン比較
