@@ -12,7 +12,8 @@ jobs:
     with:
       node-version: "24"
       working-directory: backend
-      typecheck-command: "run build"
+      # backend の build（vite build）は型を確かめないので、typecheck を先に動かす
+      typecheck-command: "run typecheck && pnpm run build"
 
   flag-pattern:
     permissions:
