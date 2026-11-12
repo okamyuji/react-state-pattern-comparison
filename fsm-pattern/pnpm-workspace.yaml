@@ -1,5 +1,8 @@
 # 公開から3日未満の版を入れない。依存の乗っ取りへの備え。緊急時だけminimumReleaseAgeExcludeにname@versionで1版ずつ足す
 minimumReleaseAge: 4320
+minimumReleaseAgeExclude:
+  - tldts@7.4.21
+  - tldts-core@7.4.21
 overrides:
   "@babel/core": ">=7.29.6"
   undici: ^7.30.0
